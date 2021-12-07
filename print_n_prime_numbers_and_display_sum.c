@@ -9,7 +9,7 @@
 #include <math.h>
 int main() {
     int i, prime = 2, is_prime = 2, count = 0, term, sum = 0, flag = 0;
-    printf("\nEnter the total even prime number you wanted : ");
+    printf("\nEnter the total prime number you wanted : ");
     scanf("%d", & term);
     while (count != term) {
         if (count == 0 || count == 1) {
